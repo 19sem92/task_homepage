@@ -4,15 +4,417 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="styles/css/main.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lato:300i,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
     <title>task_homepage</title>
 </head>
 <body>
-    <header class="header">
-        <a href="#" class="header__logo-box">
-            <img src="img/logo.png" alt="logo" class="header__logo">
-        </a>
+<header class="header container-fl">
+    <div class="container">
+        <div class="header__top">
+            <a href="#" class="header__logo-box">
+                <img src="img/logo.png" alt="logo" class="header__logo">
+            </a>
 
-    </header>
+            <div class="contact">
+                <p class="contact__text"><span>Contact</span> New Patients</p>
+                <p class="contact__tel"><span class="contact__tel-icon"></span><a href="tel:18005554126"
+                                                                                  class="contact__tel-link">1-800-555-4126</a>
+                </p>
+                <button class="btn">Special Offer</button>
+            </div>
+        </div>
+    </div>
+
+    <nav class="header__nav">
+        <ul class="header__nav-list container">
+            <li class="header__nav-item"><a href="#" class="header__nav-link">Services</a></li>
+            <li class="header__nav-item"><a href="#" class="header__nav-link">Conditions</a></li>
+            <li class="header__nav-item"><a href="#" class="header__nav-link">About</a></li>
+            <li class="header__nav-item"><a href="#" class="header__nav-link">Athletes</a></li>
+            <li class="header__nav-item"><a href="#" class="header__nav-link">Rave Reviews</a></li>
+            <li class="header__nav-item"><a href="#" class="header__nav-link">First Visit</a></li>
+            <li class="header__nav-item"><a href="#" class="header__nav-link">Pregnancy</a></li>
+            <li class="header__nav-item"><a href="#" class="header__nav-link">Pediatric</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero container-fl" style="background-image: url('img/bg-hero.jpg')">
+    <div class="hero__content container">
+        <div class="hero__block-img">
+            <img src="img/person.png" alt="" class="hero__img">
+        </div>
+
+        <div class="hero__text text">
+            <h1 class="hero__heading-primary heading-primary">
+                We’ll Get you Moving
+            </h1>
+            <p class="text__paragraph u-mb-33">
+                Dr. Day has treated <strong>Elite Athletes</strong> and <strong>Active Families</strong> for 9 years to
+                <a href="#">Rave Reviews</a>.
+                Find out more about the Holistic approach he can't waiting to bring to Greenville
+            </p>
+            <button class="btn u-text-upper">Here</button>
+        </div>
+    </div>
+    <svg version="1.1" class="hero__mountain" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+	         viewBox="0 0 3977 654" style="enable-background:new 0 0 3977 654;" xml:space="preserve">
+            <g>
+                <g transform="translate(1058 -586)">
+                    <g>
+                        <path d="M4998.9,1107.4c-1,10.1-0.2,20.3-0.2,32.5h-23.7l-2047.2-0.1V2881h-3984.9V1139.8h-28.7
+                            c-710.6,0-1421.3,0.1-2131.9,0c-30.8,0-25.6,2.7-27-19.8c-2-32.1,11.5-61.3,28.4-89.5c4.9-8.2,19.1-13.5,29.7-19.4
+                            c9.9-5.5,20.7-10.1,31.1-15c18.4-8.8,37.6-11.2,56.5-7.1c52,11.8,100.6,1.5,149.9-10.1c25.3-6,51.9-11.2,78.2-11.9
+                            c61.2-1.6,120.8-7.1,179.7-20.6c31.2-7.2,65.1-7.2,97.4-11.9c18.4-2.6,35.9-9.2,54.3-11.9c34.3-5.2,69.1-8.5,103.4-13.5
+                            c11.9-1.7,24.3-4.8,34.4-9.7c17.2-8.4,35.3-9.1,52.7-2c24.8,9.8,51.7,13.4,78.6,14.8c10.9,0.5,22.8-5.7,33.7-9.5
+                            c20.3-7.4,40.7-14.6,60-23.3c16.4-7.4,29.4-17.7,38.9-31.1c4.5-6.5,16.7-12.8,26.3-13.7c38.7-3.6,65.6-20.6,84.7-43.9
+                            c32.5-39.6,77.2-70.3,120.6-102.1c18-13.2,31.5-11.7,45.8,3.7c7.1,7.7,12.5,16.2,19.6,23.9c6.4,6.6,12.9,12.6,19.7,17.9
+                            c6.2,5,12.3,7,21,1.1c8.2-5.8,17.5-5.1,25.3,2c12.2,11.6,25.8,22.4,38.7,33.5c4.9,4.3,9.4,8.5,17.7,4.2c1-0.4,2-0.5,3-0.2
+                            c18.1,7.6,31.3-1.8,45.3-7.7c20.8-8.7,35,3.1,50.8,9.4c13.7,5.4,26.5,12,39.7,18c8.2,4.1,16.9,4.7,25.3,1.6
+                            c17.9-6.4,36.3-11.5,56.2-3.4c2.3,0.9,7.7-1,10.6-2.6c18.5-10.4,38.1-20.1,54.6-32.1c13.9-10.1,30-14.4,47.3-18.2
+                            c6.4-1.4,13.1-4.1,17.8-7.7c24.7-18.6,48.8-37.8,73.2-56.6c2.8-2.2,6.4-5.1,9.8-5.4c17.1-1.1,29.6-11,44.1-14.3
+                            c22.1-4.9,34-18.1,51.1-26.9c22.9-11.7,45.1-24.4,68.9-34.8c22.6-9.9,36.1-5.1,52.6,10.2c25.3,23.5,52.9,45.5,79.1,68.4
+                            c9.4,8.3,17.6,17.3,25.9,26.1c12,12.6,24.7,23.3,48.5,18.6c3.6-0.7,9.7,2.1,12.8,4.6c14.2,11.1,28.8,19.8,50.8,21.6
+                            c20.1,1.7,30.9,15.8,41.9,27.3c10.3,10.7,20.2,22,26.9,34.2c9.3,17,27.6,23.1,48.1,25.7c27.1,3.5,51.8,9.1,69.7,26.4
+                            c4.1,3.9,10.2,6.6,15.2,10c8.8,6.1,25.5,8.2,17.4,22.7c-1.5,2.7,6.4,8.4,10.4,13.3c2.6,1.6,14.1,10.2,23.1,2.9
+                            c8.2-10.2,17.6-14.3,30.8-6.5c8,4.7,15.6,9.9,23.4,14.8c3.5,2.2,6.8,5.3,11,6.3c43.2,10.3,86.9,17.3,131.6,5.5
+                            c18.7-4.9,36.4-12.2,55.4-16.4c10.1-2.2,23.5-2.8,32.5,0.6c14.5,5.3,26,1.9,35.7-3.8c12.4-7.2,23.7-5.4,36.3-2.5
+                            c8.8,1.9,18,2.8,26.6,4.9c29.4,7.2,58.3,4.7,88.4,1c17.6-2.2,33.1-5.2,48.7-11.8c21.5-9,44.6-15.8,66.9-23.7
+                            c5.3-1.9,10.1-4.4,15.3-6.6c10.8-4.4,21-10.1,32.4-12.9c29.3-7,59.5-11.9,88.7-19c19.8-5.1,40-4.6,59.8,1.5
+                            c31.4,9.3,64.8,14.8,97.3,21.9c2,0.4,4.7-0.1,6,0.8c20.4,13,46.8,12.7,70.2,19c9.8,2.6,17.7,9.1,27.1,12.8
+                            c13,5.1,26.2,12.4,39.9,13.3c45.9,3,87.5,15.5,129.4,28.6c38.3,12,77.1,23.3,116.2,33.6c11.2,2.9,24.4,2,36.8,2.1
+                            c50,0.3,100.1,1.1,149.1,9.1c25.2-5.9,51.7-11.1,77.8-11.8c61.1-1.6,120.8-7.1,179.7-20.6c31.2-7.2,65.1-7.2,97.5-11.9
+                            c18.4-2.6,35.9-9.2,54.3-11.9c34.3-5.2,69.1-8.5,103.4-13.5c11.9-1.7,24.3-4.8,34.4-9.7c17.2-8.4,35.3-9.1,52.7-2
+                            c24.8,9.8,51.7,13.4,78.6,14.8c10.9,0.5,22.8-5.7,33.7-9.5c20.3-7.4,40.7-14.6,60-23.3c16.4-7.4,29.4-17.7,38.9-31.1
+                            c4.6-6.5,16.7-12.8,26.3-13.7c38.7-3.6,65.6-20.6,84.7-43.9c32.5-39.6,77.2-70.3,120.6-102.1c18-13.2,31.5-11.7,45.8,3.7
+                            c7.1,7.7,12.5,16.2,19.6,23.9c6.4,6.6,12.9,12.6,19.7,17.9c6.2,5,12.3,7,21,1.1c8.2-5.8,17.5-5.1,25.3,2
+                            c12.2,11.6,25.8,22.4,38.7,33.5c4.9,4.3,9.4,8.5,17.7,4.2c0.7-0.4,2.3-0.5,3-0.2c18.1,7.6,31.3-1.8,45.3-7.7
+                            c20.8-8.7,35,3.1,50.8,9.4c13.7,5.4,26.5,12,39.7,18c8.2,4.1,16.9,4.7,25.3,1.6c17.9-6.4,36.3-11.5,56.2-3.4
+                            c2.3,0.9,7.7-1,10.6-2.6c18.5-10.4,38.1-20.1,54.6-32.1c13.9-10.1,30-14.4,47.3-18.2c6.4-1.4,13.1-4.1,17.8-7.7
+                            c24.7-18.6,48.8-37.8,73.2-56.6c2.8-2.2,6.4-5.1,9.8-5.4c17.1-1.1,29.6-11,44.1-14.3c22.1-4.9,34-18.1,51.1-26.9
+                            c22.9-11.7,45.1-24.4,68.9-34.8c22.6-9.9,36.1-5.1,52.6,10.2c25.3,23.5,52.9,45.5,79.1,68.4c9.4,8.3,17.6,17.3,25.9,26.1
+                            c12,12.6,24.7,23.3,48.5,18.6c3.6-0.7,9.7,2.1,12.8,4.6c14.2,11.1,28.8,19.8,50.8,21.6c20.1,1.7,30.9,15.8,41.9,27.3
+                            c10.3,10.7,20.2,22,26.9,34.2c9.3,17,27.6,23.1,48.1,25.7c27.1,3.5,51.8,9.1,69.7,26.4c4.1,3.9,10.2,6.6,15.2,10
+                            c8.8,6.1,25.5,8.2,17.4,22.7c-1.5,2.7,6.4,8.4,10.4,13.3c2.6,1.6,14.1,10.2,23.1,2.9c8.2-10.2,17.6-14.3,30.8-6.5
+                            c8,4.7,15.6,9.9,23.4,14.8c3.5,2.2,6.8,5.3,11,6.3c43.2,10.3,86.9,17.3,131.6,5.5c18.7-4.9,36.4-12.2,55.4-16.4
+                            c10.1-2.2,23.5-2.8,32.5,0.6c14.5,5.3,26,1.9,35.7-3.8c12.4-7.2,23.7-5.4,36.3-2.5c8.8,1.9,18,2.8,26.6,4.9
+                            c29.4,7.2,58.3,4.7,88.4,1c17.6-2.2,33.1-5.2,48.7-11.8c21.5-9,44.6-15.8,66.9-23.7c5.3-1.9,10.1-4.4,15.3-6.6
+                            c10.8-4.4,21-10.1,32.4-12.9c29.3-7,59.5-11.9,88.7-19c19.8-5.1,40-4.6,59.8,1.5c31.4,9.3,64.8,14.8,97.3,21.9
+                            c2,0.4,4.7-0.1,6,0.8c20.4,13,46.8,12.7,70.2,19c9.8,2.6,17.7,9.1,27.1,12.8c13,5.1,26.2,12.4,39.9,13.3
+                            c45.9,3,87.5,15.5,129.4,28.6c38.3,12,77.1,23.3,116.2,33.6c11.2,2.9,24.4,2,36.8,2.1c53.8,0.3,107.5,1.3,160,11
+                            c36.9,6.9,73.1,15.7,110.1,22.4c18.4,3.3,37.9,5.5,56.7,5.1c37.6-0.9,66.1,11.2,90.2,31.8c18.5,15.8,37.2,31.4,56.4,46.7
+                            C4995.8,1092.7,4999.8,1098.8,4998.9,1107.4L4998.9,1107.4z"/>
+                    </g>
+
+                </g>
+            </g>
+        </svg>
+</section>
+
+<section class="get-started">
+
+    <div class="get-started__text text">
+        <p class="text__paragraph">
+            Overcoming an injury or Pain can feel like an insurmountable <strong>Mountain</strong>. Our experts will
+            help you reach <strong>The Summit</strong> and get Pain Free again.
+        </p>
+        <p>
+            <strong>Here's a Free HEALTHY MOVEMENT GUIDE to Get you started</strong>
+        </p>
+    </div>
+
+    <div class="get-started__categories categories">
+        <div class="categories__item">
+            <div class="categories__image">
+                <img src="img/icon-mountain.png" alt="icon-mountain" class="categories__icon">
+            </div>
+
+            <p class="categories__text">
+                Healthy Shopping List
+            </p>
+        </div>
+        <div class="categories__item">
+            <div class="categories__image">
+                <img src="img/icon-mountain.png" alt="icon-mountain" class="categories__icon">
+            </div>
+
+            <p class="categories__text">
+                Top 10 daily Stretches
+            </p>
+        </div>
+        <div class="categories__item">
+            <div class="categories__image">
+                <img src="img/icon-mountain.png" alt="icon-mountain" class="categories__icon">
+            </div>
+
+            <p class="categories__text">
+                Guide to Muscle Pain
+            </p>
+        </div>
+    </div>
+
+    <div class="free-guide container">
+        <form class="free-guide__form">
+            <input placeholder="Your Email*" type="text" class="free-guide__inp">
+            <button class="btn btn-big">Dr. Day I’d love a free Natural health guide</button>
+        </form>
+    </div>
+
+</section>
+
+<section class="conditions">
+    <h2 class="heading-secondary u-center-text">click your conditions</h2>
+
+    <div class="conditions__pain-types pain-types container">
+        <div class="pain-types__item">
+            <div class="pain-types__image">
+                <img src="img/conditions/icon-1.svg" alt="conditions-icon" class="pain-types__icon">
+            </div>
+
+            <p class="pain-types__text">
+                Guide to Muscle Pain
+            </p>
+        </div>
+
+        <div class="pain-types__item">
+            <div class="pain-types__image">
+                <img src="img/conditions/icon-2.svg" alt="conditions-icon" class="pain-types__icon">
+            </div>
+
+            <p class="pain-types__text">
+                Guide to Muscle Pain
+            </p>
+        </div>
+
+        <div class="pain-types__item">
+            <div class="pain-types__image">
+                <img src="img/conditions/icon-3.svg" alt="conditions-icon" class="pain-types__icon">
+            </div>
+
+            <p class="pain-types__text">
+                Guide to Muscle Pain
+            </p>
+        </div>
+
+        <div class="pain-types__item">
+            <div class="pain-types__image">
+                <img src="img/conditions/icon-4.svg" alt="conditions-icon" class="pain-types__icon">
+            </div>
+
+            <p class="pain-types__text">
+                Guide to Muscle Pain
+            </p>
+        </div>
+
+        <div class="pain-types__item">
+            <div class="pain-types__image">
+                <img src="img/conditions/icon-5.svg" alt="conditions-icon" class="pain-types__icon">
+            </div>
+
+            <p class="pain-types__text">
+                Guide to Muscle Pain
+            </p>
+        </div>
+
+        <div class="pain-types__item">
+            <div class="pain-types__image">
+                <img src="img/conditions/icon-6.svg" alt="conditions-icon" class="pain-types__icon">
+            </div>
+
+            <p class="pain-types__text">
+                Guide to Muscle Pain
+            </p>
+        </div>
+
+        <div class="pain-types__item">
+            <div class="pain-types__image">
+                <img src="img/conditions/icon-7.svg" alt="conditions-icon" class="pain-types__icon">
+            </div>
+
+            <p class="pain-types__text">
+                Guide to Muscle Pain
+            </p>
+        </div>
+
+        <div class="pain-types__item">
+            <div class="pain-types__image">
+                <img src="img/conditions/icon-8.svg" alt="conditions-icon" class="pain-types__icon">
+            </div>
+
+            <p class="pain-types__text">
+                Guide to Muscle Pain
+            </p>
+        </div>
+
+        <div class="pain-types__item">
+            <div class="pain-types__image">
+                <img src="img/conditions/icon-9.svg" alt="conditions-icon" class="pain-types__icon">
+            </div>
+
+            <p class="pain-types__text">
+                Guide to Muscle Pain
+            </p>
+        </div>
+
+        <div class="pain-types__item">
+            <div class="pain-types__image">
+                <img src="img/conditions/icon-10.svg" alt="conditions-icon" class="pain-types__icon">
+            </div>
+
+            <p class="pain-types__text">
+                Guide to Muscle Pain
+            </p>
+        </div>
+
+
+        <div class="pain-types__item">
+            <div class="pain-types__image">
+                <img src="img/conditions/icon-11.svg" alt="conditions-icon" class="pain-types__icon">
+            </div>
+
+            <p class="pain-types__text">
+                Guide to Muscle Pain
+            </p>
+        </div>
+
+        <div class="pain-types__item">
+            <div class="pain-types__image">
+                <img src="img/conditions/icon-12.svg" alt="conditions-icon" class="pain-types__icon">
+            </div>
+
+            <p class="pain-types__text">
+                Guide to Muscle Pain
+            </p>
+        </div>
+
+        <div class="pain-types__item">
+            <div class="pain-types__image">
+                <img src="img/conditions/icon-13.svg" alt="conditions-icon" class="pain-types__icon">
+            </div>
+
+            <p class="pain-types__text">
+                Guide to Muscle Pain
+            </p>
+        </div>
+
+        <div class="pain-types__item">
+            <div class="pain-types__image">
+                <img src="img/conditions/icon-14.svg" alt="conditions-icon" class="pain-types__icon">
+            </div>
+
+            <p class="pain-types__text">
+                Guide to Muscle Pain
+            </p>
+        </div>
+
+        <div class="pain-types__item">
+            <div class="pain-types__image">
+                <img src="img/conditions/icon-15.svg" alt="conditions-icon" class="pain-types__icon">
+            </div>
+
+            <p class="pain-types__text">
+                Guide to Muscle Pain
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="connectivity">
+    <div class="connectivity__container container">
+        <div class="connectivity__card card card_schedule">
+            <div class="card__phone">
+                <p class="card__phone-text">Phone</p>
+                <a class="card__phone-link" href="tel:18005554126">1-800-555-4126</a>
+            </div>
+
+            <table class="card__schedule">
+                <thead>
+                <tr>
+                    <th>Work Hours</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="card__schedule-day">
+                    <td>Monday – Friday</td>
+                    <td>8:30am – 6pm</td>
+                </tr>
+                <tr class="card__schedule-day">
+                    <td>Saturday</td>
+                    <td>10:30am – 6pm</td>
+                </tr>
+                <tr class="card__schedule-day">
+                    <td>Sunday</td>
+                    <td>10:30am – 6pm</td>
+                </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="connectivity__card card card_map">
+            <div class="card__map-img"></div>
+            <div class="card__map-text">
+                <img src="img/nav-icon.svg" alt="nav-icon" class="card__map-icon">
+                <p><strong>1 Greenway Terrace</strong></p>
+                <p>Forest Hills, NY 11375, USA</p>
+            </div>
+
+        </div>
+        <div class="connectivity__card card card_form">
+            <p class="card__form-title">
+                Ask us a Question
+            </p>
+
+            <form>
+                <input placeholder="Name" type="text" class="card__form-inp">
+                <input placeholder="Phone" type="text" class="card__form-inp">
+                <textarea placeholder="Phone" class="card__form-inp card__form-inp_txt"></textarea>
+                <button class="btn btn-big">Send</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="blog">
+    <h2 class="heading-secondary heading-secondary_font u-center-text">Reach Your Summit Blog</h2>
+
+    <ul class="blog__unit unit">
+        <div class="connectivity__card card card_schedule">
+            <div class="card__phone">
+                <p class="card__phone-text">Phone</p>
+                <a class="card__phone-link" href="tel:18005554126">1-800-555-4126</a>
+            </div>
+
+            <table class="card__schedule">
+                <thead>
+                <tr>
+                    <th>Work Hours</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="card__schedule-day">
+                    <td>Monday – Friday</td>
+                    <td>8:30am – 6pm</td>
+                </tr>
+                <tr class="card__schedule-day">
+                    <td>Saturday</td>
+                    <td>10:30am – 6pm</td>
+                </tr>
+                <tr class="card__schedule-day">
+                    <td>Sunday</td>
+                    <td>10:30am – 6pm</td>
+                </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+    </ul>
+
+</section>
 </body>
 </html>

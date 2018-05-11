@@ -1,0 +1,36 @@
+.categories
+  width: 100%
+  max-width: 94.2rem
+  margin: 0 auto
+  display: flex
+
+  &__item
+    width: 100%
+    max-width: 31.3rem
+    min-height: 17rem
+    border-radius: 2px
+    border: 1px solid $light-grey-color
+    background-color: $white
+    display: flex
+    align-items: center
+    flex-direction: column
+    cursor: pointer
+    transition: transform .5s, border-bottom .5s
+
+    &:hover
+      transform: translateY(-.5rem)
+      border-bottom: .5rem solid $button-big-color
+
+  &__image
+    width: 8rem
+    height: 8rem
+    box-shadow: 0 .5rem .6rem rgba(190, 190, 190, 0.36)
+    border: .2rem dotted #455a51
+    background-color: white
+    border-radius: 50%
+    margin-bottom: 2rem
+    display: flex
+    align-items: center
+    justify-content: center
+    position: relative
+    top: -1.5rem

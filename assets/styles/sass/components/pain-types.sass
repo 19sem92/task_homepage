@@ -1,0 +1,22 @@
+.pain-types
+  display: flex
+  flex-wrap: wrap
+
+  &__item
+    display: flex
+    align-items: center
+    //justify-content: center
+    flex-basis: 20%
+    flex-direction: column
+    cursor: pointer
+    min-height: 18rem
+    padding: .5rem
+    transition: box-shadow .5s, transform .3s
+
+    &:hover
+      box-shadow: $box-shadow-hover
+      transform: translateY(-5px)
+
+  &__icon
+    height: 10rem
+    margin-bottom: 2rem

@@ -1,0 +1,31 @@
+.contact
+  display: flex
+  align-items: center
+  justify-content: space-between
+  margin-left: 21.05%
+  flex-grow: 1
+
+  &__text
+
+    span
+      position: relative
+      padding-right: 1.4rem
+      &:after
+        content: ''
+        display: inline-block
+        width: .2rem
+        height: 1.3rem
+        background-color: $button-big-color
+        position: absolute
+        right: .3rem
+        top: .1rem
+
+  &__tel
+    display: flex
+    align-items: center
+    &-icon
+      display: inline-block
+      width: 2.6rem
+      height: 2.6em
+      margin-right: 1.8rem
+      background: url("../../../img/icon-phone.svg") no-repeat center

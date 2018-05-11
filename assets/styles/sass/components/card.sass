@@ -1,0 +1,70 @@
+.card
+  width: 100%
+  max-width: 37.6rem
+  background-image: repeating-linear-gradient(-45deg, #ffffff 1px, #f7f7f7 3px)
+  min-height: 43.8rem
+  &:not(:last-child)
+    margin-right: .5rem
+
+  &_schedule
+    padding: 5.5em 6rem 3.5rem
+    background: url('../../../img/clock-icon.svg') no-repeat right bottom, repeating-linear-gradient(-45deg, #ffffff 1px, #f7f7f7 3px)
+
+  &_map
+    background: $white
+    border-radius: 0 0 2rem 2rem
+    text-align: center
+    min-height: 45.8rem
+
+  &_form
+    padding: 4rem
+    text-align: center
+
+  &__phone
+    margin-bottom: 11.6rem
+
+  &__schedule
+    text-align: left
+    thead th
+      padding-bottom: 3rem
+
+    &-day
+      td
+        padding-bottom: 1.4rem
+        &:not(:last-child)
+          padding-right: 4.5rem
+
+  &__form
+
+    &-title
+      margin-bottom: 3.5rem
+
+    form
+      display: flex
+      flex-direction: column
+      width: 100%
+
+    &-inp
+      width: 100%
+      height: 4rem
+      border-radius: 2px
+      border: 1px solid #d7d7d7
+      background-color: $white
+      margin-bottom: .5rem
+      text-align: center
+      outline: none
+
+      &_txt
+        resize: none
+        height: 10rem
+        margin-bottom: 3rem
+
+  &__map
+    &-img
+      width: 100%
+      height: 26rem
+      background: url("../../../img/map.jpg")
+      margin-bottom: 3.8rem
+
+    &-icon
+      margin-bottom: 1rem
